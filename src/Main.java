@@ -23,7 +23,6 @@ int i,j;
                 }
             }
         }
-
     }
 
     public static void repeticao(int[][] matriz, Scanner scan) {

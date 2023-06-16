@@ -12,7 +12,7 @@ public class teste {
     }
     public static void inverso(int lista[]){
         int i;
-        int[] lista_inv = new int[10];
+        int[] lista_inv = new int[50];
         for (i = 0; i < lista_inv.length; i++) {
             lista_inv[i] = lista[49 - i];
             System.out.println(lista_inv[i]+"   " +lista[i]);
