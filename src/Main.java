@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +13,6 @@ public class Main {
         diagonalp(matriz);
         repeticao(matriz,scan);
     }
-
     public static void diagonalp(int[][] matriz) {
 int i,j;
         System.out.println("diagonal princial: ");
@@ -23,8 +21,6 @@ int i,j;
                 if (i - j == 0) {
                     System.out.println(matriz[i][j]);
                 }
-
-
             }
         }
 
@@ -32,7 +28,7 @@ int i,j;
 
     public static void repeticao(int[][] matriz, Scanner scan) {
         int numero,repetidor=0,i,j;
-        System.out.println("digite outro numero");
+        System.out.println("digite um numero da matriz");
         numero = scan.nextInt();
         for (i = 0; i < matriz.length; i++) {
             for (j = 0; j < matriz.length; j++) {
